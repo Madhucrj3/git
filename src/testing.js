@@ -1,7 +1,10 @@
 import React from "react";
+import { useState } from "react";
 
 const testing = () => {
-  return <div>testing</div>;
+  const [state, setstate] = useState("5trgf");
+
+  return <div>{state}</div>;
 };
 
 export default testing;
