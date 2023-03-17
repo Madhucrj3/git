@@ -2,7 +2,7 @@ import React from "react";
 
 export default class LightDarkMode extends React.Component {
   state = {
-    mode: "Light",
+    mode: "Dark",
   };
 
   changeMode = (e) => {
@@ -14,7 +14,7 @@ export default class LightDarkMode extends React.Component {
   render() {
     const { mode } = this.state;
     return (
-      <div style={{ backgroundColor: mode === "Dark" ? "#000" : "#fff" }}>
+      <div style={{ backgroundColor: mode === "Dark" ? "#00000" : "#fff" }}>
         <h1 style={{ color: mode === "Dark" ? "#fff" : "#000" }}>
           change to {mode} Mode
         </h1>
