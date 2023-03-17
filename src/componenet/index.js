@@ -2,7 +2,7 @@ import React from "react";
 
 export default class LightDarkMode extends React.Component {
   state = {
-    mode: "Dark",
+    mode: "Light",
   };
 
   changeMode = (e) => {
